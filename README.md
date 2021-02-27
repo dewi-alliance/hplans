@@ -1,0 +1,2 @@
+# hplans
+lorawan regional map
