@@ -57,7 +57,6 @@ m = folium.Map([51,-102], tiles='stamentoner', zoom_start=5,control_scale=True,m
 gjfile=open('Unknown.geojson', 'r', encoding="utf8")
 gjland = json.loads(gjfile.read())
 
-
 style1 = {'color': 'white'}
 polygons=[]
 region=[]
@@ -79,11 +78,8 @@ region.append(Feature(geometry=combined, properties={'region':'Unknown','fill':'
 
 gjfile=open('EU433.geojson', 'r', encoding="utf8")
 gjland = json.loads(gjfile.read())
-
-
-style1 = {'color': 'brown'}
 polygons=[]
-region=[]
+style1 = {'color': 'brown'}
 for area in gjland['features']:
     if (area['geometry']['type'] == 'MultiPolygon'):
 
@@ -103,10 +99,8 @@ region.append(Feature(geometry=combined, properties={'region':'EU433','fill':'br
 gjfile=open('AS923-1.geojson', 'r', encoding="utf8")
 gjland = json.loads(gjfile.read())
 
-
 style1 = {'color': 'seagreen'}
 polygons=[]
-region=[]
 for area in gjland['features']:
     if (area['geometry']['type'] == 'MultiPolygon'):
 
