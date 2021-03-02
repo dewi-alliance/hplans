@@ -3,7 +3,7 @@ import requests
 import gzip
 
 #openstreetmaps api key
-apikey='xxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+apikey='89084dcf0471daa2173ff3c0b3e6a78f'
 osmids={}
 
 with open('regions.csv', newline='') as f:
@@ -15,7 +15,7 @@ regions=regions[1:]
 
 
 for region in regions:
-    code,lat,lng,country,region,region2,region3,zone,osmindex=region
+    code,lat,lng,country,region,region2,region3,zone,osmindex,notes=region
     try:
         if osmindex=='':
             continue

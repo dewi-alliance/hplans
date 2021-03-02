@@ -54,6 +54,52 @@ m.save('regions.html')
 
 m = folium.Map([51,-102], tiles='stamentoner', zoom_start=5,control_scale=True,max_zoom=20)#,crs='EPSG4326')
 
+gjfile=open('Unknown.geojson', 'r', encoding="utf8")
+gjland = json.loads(gjfile.read())
+
+
+style1 = {'color': 'white'}
+polygons=[]
+region=[]
+for area in gjland['features']:
+    if (area['geometry']['type'] == 'MultiPolygon'):
+
+        for poly in area['geometry']['coordinates']:
+            poly=geometry.Polygon(poly[0])
+            polygons.append(poly)
+
+    else:
+        poly=geometry.Polygon(area['geometry']['coordinates'][0])
+        polygons.append(poly)
+
+combined=unary_union(polygons)
+folium.GeoJson(combined, style_function=lambda x: style1).add_to(m)
+region.append(Feature(geometry=combined, properties={'region':'Unknown','fill':'white'}))
+
+
+gjfile=open('EU433.geojson', 'r', encoding="utf8")
+gjland = json.loads(gjfile.read())
+
+
+style1 = {'color': 'brown'}
+polygons=[]
+region=[]
+for area in gjland['features']:
+    if (area['geometry']['type'] == 'MultiPolygon'):
+
+        for poly in area['geometry']['coordinates']:
+            poly=geometry.Polygon(poly[0])
+            polygons.append(poly)
+
+    else:
+        poly=geometry.Polygon(area['geometry']['coordinates'][0])
+        polygons.append(poly)
+
+combined=unary_union(polygons)
+folium.GeoJson(combined, style_function=lambda x: style1).add_to(m)
+region.append(Feature(geometry=combined, properties={'region':'EU433','fill':'brown'}))
+
+
 gjfile=open('AS923-1.geojson', 'r', encoding="utf8")
 gjland = json.loads(gjfile.read())
 
