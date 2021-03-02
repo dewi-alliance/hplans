@@ -114,7 +114,7 @@ for area in gjland['features']:
 
 combined=unary_union(polygons)
 folium.GeoJson(combined, style_function=lambda x: style1).add_to(m)
-region.append(Feature(geometry=combined, properties={'region':'AS923-1','fill':'green'}))
+region.append(Feature(geometry=combined, properties={'region':'AS923-1','fill':'seagreen'}))
 
 
 gjfile=open('AS923-2.geojson', 'r', encoding="utf8")
@@ -135,6 +135,26 @@ for area in gjland['features']:
 combined=unary_union(polygons)
 folium.GeoJson(combined, style_function=lambda x: style2).add_to(m)
 region.append(Feature(geometry=combined, properties={'region':'AS923-2','fill':'lawngreen'}))
+
+
+gjfile=open('AS923-3.geojson', 'r', encoding="utf8")
+gjland = json.loads(gjfile.read())
+polygons=[]
+style2 = {'color': 'darkgreen'}
+for area in gjland['features']:
+    if (area['geometry']['type'] == 'MultiPolygon'):
+
+        for poly in area['geometry']['coordinates']:
+            poly=geometry.Polygon(poly[0])
+
+            polygons.append(poly)
+    else:
+        poly=geometry.Polygon(area['geometry']['coordinates'][0])
+        polygons.append(poly)
+
+combined=unary_union(polygons)
+folium.GeoJson(combined, style_function=lambda x: style2).add_to(m)
+region.append(Feature(geometry=combined, properties={'region':'AS923-3','fill':'darkgreen'}))
 
 
 gjfile=open('AU915.geojson', 'r', encoding="utf8")

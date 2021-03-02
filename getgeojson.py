@@ -22,7 +22,7 @@ for region in regions:
         else:
             osmids[region]=osmids[region]+osmindex+','
     except KeyError:
-        print('Adding Key ', region)
+        print('Adding Key', region)
         osmids[region]=osmindex+','
 #print(osmids)
 
