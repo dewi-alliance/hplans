@@ -3,7 +3,7 @@ import requests
 import gzip
 
 #openstreetmaps api key
-apikey='89084dcf0471daa2173ff3c0b3e6a78f'
+apikey='ec9fd47f34ab5e38b32d6ce100815d84'
 osmids={}
 
 with open('regions.csv', newline='') as f:
@@ -12,7 +12,6 @@ with open('regions.csv', newline='') as f:
 f.close()
 regions=regions[1:]
 #print(regions)
-
 
 for region in regions:
     code,lat,lng,country,region,region2,region3,zone,osmindex,notes=region
@@ -28,7 +27,7 @@ for region in regions:
 
 for region in osmids:
     url = "https://osm-boundaries.com/Download/Submit?apiKey="+apikey+"&db=osm20210104&osmIds="+osmids[region]
-    #print(url)
+    print(url)
     data=requests.get(url=url)
 
     # save the gzip to disk
