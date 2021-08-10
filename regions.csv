@@ -77,7 +77,7 @@ FO,61.892635,-6.911806,Faroe Islands,EU868,EU433,,zone1,-52939,
 FJ,-16.578193,179.414413,Fiji,Unknown,,,zone3,-571747,
 FI,61.92411,25.748151,Finland,EU868,EU433,,zone1,-54224,
 FR,46.227638,2.213749,France,EU868,EU433,,zone1,-2202162,
-GF,3.933889,-53.125782,French Guiana,EU868,EU433,,zone1,-287083,
+GF,3.933889,-53.125782,French Guiana,EU868,EU433,,zone1,,Part of France in OSM-Boundaries
 PF,-17.679742,-149.406843,French Polynesia,EU868,EU433,,zone1,,Part of France in OSM-Boundaries
 TF,-49.280366,69.348557,French Southern Territories,EU868,EU433,,zone1,,Part of France in OSM-Boundaries
 GA,-0.803689,11.609444,Gabon,Unknown,,,zone1,-192793,
