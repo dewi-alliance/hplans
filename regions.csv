@@ -12,7 +12,7 @@ AG,17.060816,-61.796428,Antigua and Barbuda,Unknown,,,zone2,-536900,
 AR,-38.416097,-63.616672,Argentina,AU915,,,zone3,-286393,
 AM,40.069099,45.038189,Armenia,EU868,EU433,,zone1,-364066,
 AW,12.52111,-69.968338,Aruba,Unknown,,,zone2,,Part of the Netherlands in OSM-Boundaries
-AU,-25.274398,133.775136,Australia,AS923-1,AU915,,zone3,-80500,
+AU,-25.274398,133.775136,Australia,AU915,AS923-1,,zone3,-80500,
 AT,47.516231,14.550072,Austria,EU868,EU433,,zone1,-16239,
 AZ,40.143105,47.576927,Azerbaijan,EU433,,,zone1,-364110,
 BS,25.03428,-77.39628,Bahamas,US915,,,zone2,-547469,
