@@ -45,7 +45,7 @@ KY,19.513469,-80.566956,Cayman Islands,Unknown,,,zone2,-2185366,
 CF,6.611111,20.939444,Central African Republic,Unknown,,,zone1,-192790,
 TD,15.454166,18.732207,Chad,Unknown,,,zone1,-2361304,
 CL,-35.675147,-71.542969,Chile,AU915,EU433,,zone3,-167454,
-CN,35.86166,104.195397,China,CN779,CN470,AS923-1,zone3,-270056,
+CN,35.86166,104.195397,China,CN470,CN779,AS923-1,zone3,-270056,
 CX,-10.447525,105.690449,Christmas Island,AU915,AS923-1,,zone3,,Part of Australia in OSM-Boundaries
 CC,-12.164165,96.870956,Cocos [Keeling] Islands,AU915,AS923-1,,zone3,,Part of Australia in OSM-Boundaries
 CO,4.570868,-74.297333,Colombia,AU915,EU433,,zone2,-120027,
