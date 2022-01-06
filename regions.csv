@@ -96,7 +96,7 @@ GT,15.783471,-90.230759,Guatemala,AU915,,,zone2,-1521463,
 GG,49.465691,-2.585278,Guernsey,EU868,AS923-3,EU433,zone1,-270009,
 GN,9.945587,-9.696645,Guinea,EU433,,,zone1,-192778,
 GW,11.803749,-15.180413,Guinea-Bissau,Unknown,,,zone1,-192776,
-GY,4.860416,-58.93018,Guyana,Unknown,,,zone2,-287083,
+GY,4.860416,-58.93018,Guyana,US915,,,zone2,-287083,
 HT,18.971187,-72.285215,Haiti,Unknown,,,zone2,-307829,
 HM,-53.08181,73.504158,Heard Island and McDonald Islands,AU915,AS923-1,,zone3,,Part of Australia in OSM-Boundaries
 VA,,,Holy See,EU868,EU433,,,-36989,
