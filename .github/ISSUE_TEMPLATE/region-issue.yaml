@@ -1,0 +1,56 @@
+name: Regional Issue
+description: Fill out this form if your hotspot is using an unexpected region eg. region_us915, region_eu868, etc
+title: "[Addition]: "
+labels: ["addition", "triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For an issues with regions or channel plans please fill out the requested information.
+
+  - type: textarea
+    id: hotspot-addresses
+    attributes:
+      label: Hotspot b58 Addresses
+      description: Please provide a list of Hotspot addresses separated by newlines. One Hotspot address per line.
+      placeholder: ex. 112ui8pK1pmkeTiNxLNqJiwjUkSobo6gf6PnB15Tw7iA4orN9B2j
+    validations:
+      required: true
+
+  - type: input
+    id: discord-handle
+    attributes:
+      label: Discord Handle
+      description: What is your Discord handle (in case we need to reach you?)
+      placeholder: ex. hotspot-owner#9184
+    validations:
+      required: false
+
+  - type: dropdown
+    id: region
+    attributes:
+      label: What regional channel plan do you expect your hotspot to be using?
+      multiple: false
+      options:
+        - AS923-1
+        - AS923-2
+        - AS923-3
+        - AS923-4
+        - AU915
+        - CN470
+        - EU433
+        - EU868
+        - IN865
+        - KR920
+        - RU864
+        - US915
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Additional Details 
+      placeholder: ex. My hotspot is asserted in the dmz
+    validations:
+      required: false
