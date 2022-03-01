@@ -18,6 +18,3 @@ h3idx files are created which contain a binary list of user h3 hexes for each re
 The dataset was originally download from https://osm-boundaries.com/ based off the regions.csv file using getgeojson.py(this code is no longer used but moved to archive). Each LoRaWAN region is captured in its own file by country.
 
 regions.geojson contains all regions. It is created by running plans.py which takes each region file and runs unary_union function to merge all neighbouring polygons with the same region and combines them all into a single file. 
-
-
-
