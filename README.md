@@ -1,7 +1,5 @@
 # hplans
-hplans is a geojson representation of the LoRaWAN regional parameter channel plans. It is based off of RP2-1.0.3 LoRaWAN Regional Parameters from the LoRaWAN Alliance as well as Helium Networks country definitions.
-https://lora-alliance.org/resource_hub/rp2-1-0-3-lorawan-regional-parameters/
-https://github.com/helium/miner/blob/master/priv/countries_reg_domains.csv 
+hplans is a geojson representation of the LoRaWAN regional parameter channel plans. It is based off of [RP2-1.0.3 LoRaWAN Regional Parameters](https://lora-alliance.org/resource_hub/rp2-1-0-3-lorawan-regional-parameters/) from the LoRaWAN Alliance as well as [Helium Network's country definitions](https://github.com/helium/miner/blob/master/priv/countries_reg_domains.csv). 
 
 The geojson does not contain the channel plan and spectrum definitions but only the geographic regions they apply to.
 
