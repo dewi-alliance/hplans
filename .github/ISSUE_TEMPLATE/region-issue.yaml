@@ -1,6 +1,6 @@
 name: Regional Issue
 description: Fill out this form if your hotspot is using an unexpected region eg. region_us915, region_eu868, etc
-title: "[Addition]: "
+title: ""
 labels: ["addition", "triage"]
 assignees: []
 body:
@@ -51,6 +51,6 @@ body:
     attributes:
       label: Details
       description: Additional Details 
-      placeholder: ex. My hotspot is asserted in the dmz
+      placeholder: ex. My hotspot is asserted near border
     validations:
       required: false

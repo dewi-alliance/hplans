@@ -5,7 +5,7 @@ from shapely import geometry
 from shapely.ops import unary_union
 from geojson import Point, Feature, FeatureCollection, dump
 
-regions=['Unknown','EU868','US915','CN779','AU915','AS923-1','AS923-2','AS923-3','AS923-4','KR920','IN865','RU864','EU433','CN470']
+regions=['Unknown','EU868','US915','CN779','AU915','AS923-1','AS923-1B','AS923-2','AS923-3','AS923-4','KR920','IN865','RU864','EU433','CN470']
 
 colors={'Unknown':'white',
         'EU868':'yellow',
@@ -14,13 +14,14 @@ colors={'Unknown':'white',
         'AU915':'seagreen',
         'CN470':'red',
         'AS923-1':'lawngreen',
+        'AS923-1B':'mistyrose',
         'AS923-2':'lightgrey',
         'AS923-3':'lightskyblue',
         'AS923-4':'darkblue',
         'KR920':'pink',
         'IN865':'purple',
         'RU864':'orange',
-        'EU433':'brown'}
+        'EU433':'brown' }
 
 m = folium.Map([51,-102], tiles='stamentoner', zoom_start=5,control_scale=True,max_zoom=10)#,crs='EPSG4326')
 region=[]
