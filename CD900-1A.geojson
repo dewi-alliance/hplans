@@ -1,0 +1,1 @@
+{"type" : "FeatureCollection", "features" : [{"type": "Feature", "geometry": {"type":"Polygon","coordinates":[[[142.09,11.07],[143.09,11.07],[143.09,11.67],[142.09,11.67],[142.09,11.07]]]}, "properties": {"osm_id": -1, "boundary": "administrative", "admin_level": 2, "parents": null, "name": "ChallengerDeep", "local_name": "CDTestRegion", "name_en": "CD900_1A"}}]}
