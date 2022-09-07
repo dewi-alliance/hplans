@@ -251,7 +251,7 @@ WF,-13.768752,-177.156097,Wallis and Futuna,EU868,EU433,,zone2,,Part of France i
 EH,24.215527,-12.885834,Western Sahara,Unknown,,,zone1,-3630439,Morocco in OSM-Boundaries. Sahrawi Arab Democratic Republic too
 YE,15.552727,48.516388,Yemen,Unknown,,,zone1,-305092,
 ZM,-13.133897,27.849332,Zambia,EU868,EU433,,zone1,-195271,
-ZW,-19.015438,29.154857,Zimbabwe,EU433,,,zone1,-195272,
+ZW,-19.015438,29.154857,Zimbabwe,EU868,EU433,,zone1,-195272,
 AQ,,,Chilean Antarctic,AU915,EU433,,,-3394115,
 AQ,,,Australian Antarctic,AU915,AS923-1,,,-3394111,
 AQ,,,British Antarctic,EU868,AS923-3,EU433,,-3394112,
