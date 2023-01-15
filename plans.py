@@ -5,17 +5,19 @@ from shapely import geometry
 from shapely.ops import unary_union
 from geojson import Point, Feature, FeatureCollection, dump
 
-regions=['Unknown','EU868','US915','CN779','CD900-1A','AU915','AS923-1','AS923-1B','AS923-2','AS923-3','AS923-4','KR920','IN865','RU864','EU433','CN470']
+regions=['Unknown','EU868','US915','CN779','CD900-1A','AU915','AU915-SB1','AS923-1','AS923-1B','AS923-1C','AS923-2','AS923-3','AS923-4','KR920','IN865','RU864','EU433','CN470']
 
 colors={'Unknown':'white',
         'EU868':'yellow',
         'US915':'blue',
         'CN779':'red',
         'AU915':'seagreen',
+        'AU915-SB1':'aquamarine',
         'CN470':'red',
         'CD900-1A':'beige',
         'AS923-1':'lawngreen',
         'AS923-1B':'mistyrose',
+        'AS923-1C':'peachpuff',
         'AS923-2':'lightgrey',
         'AS923-3':'lightskyblue',
         'AS923-4':'darkblue',
