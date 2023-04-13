@@ -12,7 +12,7 @@ AG,17.060816,-61.796428,Antigua and Barbuda,Unknown,,,zone2,-536900,
 AR,-38.416097,-63.616672,Argentina,AU915,,,zone3,-286393,
 AM,40.069099,45.038189,Armenia,EU868,EU433,,zone1,-364066,
 AW,12.52111,-69.968338,Aruba,Unknown,,,zone2,,Part of the Netherlands in OSM-Boundaries
-AU,-25.274398,133.775136,Australia,AS923-1C,AU915,,zone3,-80500,
+AU,-25.274398,133.775136,Australia,AU915,AU915,,zone3,-80500,
 AT,47.516231,14.550072,Austria,EU868,EU433,,zone1,-16239,
 AZ,40.143105,47.576927,Azerbaijan,EU433,,,zone1,-364110,
 BS,25.03428,-77.39628,Bahamas,US915,,,zone2,-547469,
@@ -30,7 +30,7 @@ BQ,,,Bonaire Sint Eustatius and Saba,EU868,EU433,,,,Part of the Netherlands in O
 BA,43.915886,17.679076,Bosnia and Herzegovina,EU868,EU433,,zone1,-2528142,
 BW,-22.328474,24.684866,Botswana,EU868,EU433,,zone1,-1889339,
 BV,-54.423199,3.413194,Bouvet Island,EU868,AS923-3,EU433,zone1,,Part of Norway in OSM-Boundaries
-BR,-14.235004,-51.92528,Brazil,AU915-SB1,EU433,,zone3,-59470,
+BR,-14.235004,-51.92528,Brazil,AU915,EU433,,zone3,-59470,
 IO,-6.343194,71.876519,British Indian Ocean Territory,Unknown,,,zone2,-1993867,
 BN,4.535277,114.727669,Brunei,AS923-1,EU868,EU433,zone3,-2103120,
 BG,42.733883,25.48583,Bulgaria,EU868,EU433,,zone1,-186382,
@@ -158,7 +158,7 @@ NP,28.394857,84.124008,Nepal,Unknown,,,zone3,-184633,
 NL,52.132633,5.291266,Netherlands,EU868,EU433,,zone1,-2323309,
 AN,12.226079,-69.060087,Netherlands Antilles,EU868,EU433,,zone1,,Part of the Netherlands in OSM-Boundaries
 NC,-20.904305,165.618042,New Caledonia,EU868,EU433,,zone3,,Part of France in OSM-Boundaries
-NZ,-40.900557,174.885971,New Zealand,AS923-1C,AU915,EU433,zone3,-556706,
+NZ,-40.900557,174.885971,New Zealand,AS923,AU915,EU433,zone3,-556706,
 NI,12.865416,-85.207229,Nicaragua,AU915,,,zone2,-287666,
 NE,17.607789,8.081666,Niger,IN865,,,zone1,-192786,
 NG,9.081999,8.675277,Nigeria,EU868,EU433,,zone1,-192787,
