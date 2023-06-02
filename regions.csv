@@ -30,7 +30,7 @@ BQ,,,Bonaire Sint Eustatius and Saba,EU868,EU433,,,,Part of the Netherlands in O
 BA,43.915886,17.679076,Bosnia and Herzegovina,EU868,EU433,,zone1,-2528142,
 BW,-22.328474,24.684866,Botswana,EU868,EU433,,zone1,-1889339,
 BV,-54.423199,3.413194,Bouvet Island,EU868,AS923-3,EU433,zone1,,Part of Norway in OSM-Boundaries
-BR,-14.235004,-51.92528,Brazil,AU915-SB1,EU433,,zone3,-59470,
+BR,-14.235004,-51.92528,Brazil,AU915,EU433,,zone3,-59470,
 IO,-6.343194,71.876519,British Indian Ocean Territory,Unknown,,,zone2,-1993867,
 BN,4.535277,114.727669,Brunei,AS923-1,EU868,EU433,zone3,-2103120,
 BG,42.733883,25.48583,Bulgaria,EU868,EU433,,zone1,-186382,
