@@ -2,7 +2,7 @@ Code,lat,lng,Country,Region,Region2,Region3,Zone,OSMIndex,Notes
 AF,33.93911,67.709953,Afghanistan,Unknown,,,zone1,-303427,
 AX,,,Aland Islands,EU868,EU433,,,,Part of Finland polygons in OSM-Boundaries
 AL,41.153332,20.168331,Albania,EU868,EU433,AS923-3,zone1,-53292,
-DZ,28.033886,1.659626,Algeria,AS923-3,EU433,,zone1,-192756,
+DZ,28.033886,1.659626,Algeria,EU868,EU433,,zone1,-192756,
 AS,-14.270972,-170.132217,American Samoa,US915,,,zone2,,Part of US polygons in OSM-Boundaries
 AD,42.546245,1.601554,Andorra,EU868,EU433,,zone1,-9407,
 AO,-11.202692,17.873887,Angola,Unknown,,,zone1,-195267,
@@ -95,7 +95,7 @@ GT,15.783471,-90.230759,Guatemala,AU915,,,zone2,-1521463,
 GG,49.465691,-2.585278,Guernsey,EU868,AS923-3,EU433,zone1,-270009,
 GN,9.945587,-9.696645,Guinea,EU433,,,zone1,-192778,
 GW,11.803749,-15.180413,Guinea-Bissau,Unknown,,,zone1,-192776,
-GY,4.860416,-58.93018,Guyana,US915,,,zone2,-287083,
+GY,4.860416,-58.93018,Guyana,Unknown,,,zone2,-287083,
 HT,18.971187,-72.285215,Haiti,Unknown,,,zone2,-307829,
 HM,-53.08181,73.504158,Heard Island and McDonald Islands,AS923-1,AU915,,zone3,,Part of Australia in OSM-Boundaries
 HN,15.199999,-86.241905,Honduras,AU915,,,zone2,-287670,
@@ -140,7 +140,7 @@ MT,35.937496,14.375416,Malta,EU868,EU433,,zone1,-365307,
 MH,7.131474,171.184478,Marshall Islands,Unknown,,,zone3,-571771,
 MQ,14.641528,-61.024174,Martinique,EU868,EU433,,zone2,,Part of France in OSM-Boundaries
 MR,21.00789,-10.940835,Mauritania,EU868,EU433,,zone1,-192763,
-MU,-20.348404,57.552152,Mauritius,EU433,,,zone1,-535828,
+MU,-20.348404,57.552152,Mauritius,EU868,EU433,,zone1,-535828,
 YT,-12.8275,45.166244,Mayotte,EU868,EU433,,zone1,,Part of France in OSM-Boundaries
 MX,23.634501,-102.552784,Mexico,US915,,,zone2,-114686,
 FM,7.425554,150.550812,Micronesia,Unknown,,,zone3,-571802,
